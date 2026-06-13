@@ -27,3 +27,6 @@ fi
 
 # opencode (if exists)
 [[ -d "$HOME/.opencode/bin" ]] && export PATH="$HOME/.opencode/bin:$PATH"
+
+alias macdot='git --git-dir=/Users/stivce/.macdot --work-tree=/Users/stivce'
+macdot config status.showUntrackedFiles no
